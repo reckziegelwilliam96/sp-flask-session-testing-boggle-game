@@ -27,3 +27,5 @@ Words can be created from adjacent letters – that is, letters which are horizo
 Further Improvements:
 - __tests to add__
 - timer
+- 'N x N' board size
+- hint button
