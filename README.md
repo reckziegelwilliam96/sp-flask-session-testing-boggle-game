@@ -23,6 +23,8 @@ Words can be created from adjacent letters – that is, letters which are horizo
   - __test_post_score__
   - __test_display_board__
   - __test to check_json__
+- **in static dir, boggle.js:** handle submit, game score, check word
+- **in static dir, app.css:** styling game UI
 
 Further Improvements:
 - __tests to add__
