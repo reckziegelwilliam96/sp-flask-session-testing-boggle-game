@@ -1,13 +1,9 @@
 class BoggleGame {
-    constructor(boardId /*, secs = 60*/) {
-       /* this.secs = secs;
-        this.showTimer(); */
+    constructor(boardId) {
 
         this.score=0;
         this.words = new Set();
         this.board = $("#" + boardId)
-
-        /*this.timer = setInterval(this.tick.bind(this), 1000);*/
 
         $(".add-word", this.board).on("submit", this.handleSubmit.bind(this));
     }
